@@ -41,11 +41,7 @@ enable_file /boot/start.elf
 
 if [ $reboot -eq 1 ]; then
   echo INF Rebooting
-<<<<<<< HEAD
   reboot
-=======
-  #reboot
->>>>>>> 2343aad88fe6b4d1c5729ce8c6dc021c8956121b
 else
   echo INF Not rebooting
 fi
